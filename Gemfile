@@ -54,6 +54,7 @@ group :development do
   gem 'guard'
   gem 'guard-livereload', '~> 2.5', require: false
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
+  gem "binding_of_caller" 
 end
 
 group :test do
